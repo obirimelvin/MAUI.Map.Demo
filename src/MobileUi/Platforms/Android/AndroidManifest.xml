@@ -6,6 +6,10 @@
     android:value="@integer/google_play_services_version" />
 
     <meta-data android:name="com.google.android.geo.API_KEY" android:value=""/>  
+     <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_MAP_API_KEY"></meta-data>
+               
+                <!-- Necessary for apps that target Android 9.0 or higher -->
+          <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
   </application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
